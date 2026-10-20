@@ -1,0 +1,30 @@
+{
+  "CAR_VS_BOS_001": {
+    "sampled": 5,
+    "accepted_hypotheses": 2,
+    "counts": {
+      "22": 2
+    },
+    "stable_number_hypothesis": null,
+    "identity_confirmation": false
+  },
+  "CGY_VS_DAL_003": {
+    "sampled": 6,
+    "accepted_hypotheses": 2,
+    "counts": {
+      "5": 1,
+      "15": 1
+    },
+    "stable_number_hypothesis": null,
+    "identity_confirmation": false
+  },
+  "CHI_VS_TOR_004": {
+    "sampled": 9,
+    "accepted_hypotheses": 2,
+    "counts": {
+      "28": 2
+    },
+    "stable_number_hypothesis": null,
+    "identity_confirmation": false
+  }
+}

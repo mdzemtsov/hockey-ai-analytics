@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-20T16:33:19.453866+00:00",
+  "files": [
+    {
+      "path": "v12/evidence.py",
+      "sha256": "6b80acf3a282e181ac2cfe9990c8ca5dd0b628d25e32ba6673eda249434a1978"
+    },
+    {
+      "path": "v12/experiment.py",
+      "sha256": "654097bb4edd687c892849142fb001c91f1fbc624a5651c91f664ef415ed987e"
+    },
+    {
+      "path": "v12/config.json",
+      "sha256": "cf86764f3cee841fb56fa84c9e49c02e7820ebb3e99b36f96e90e8fd6b14c3bf"
+    },
+    {
+      "path": "v12/protocol.json",
+      "sha256": "15327a7e027c8c7a89a406d786fbcb968e457a08fa357628e6aa81199ac39816"
+    },
+    {
+      "path": "v12/encoder_source.json",
+      "sha256": "da9cf720e94bc96c2f0a68aa82853505db5221fe55754cb31e9164c1d6f4e705"
+    },
+    {
+      "path": "v12/detect_validation.py",
+      "sha256": "ae4dc04374b9cab7ebd9ed99e0ae1892515943d59bb916abfb88ebe144d0c27b"
+    },
+    {
+      "path": "v11/recovery.py",
+      "sha256": "a2960ea820fa7a43e570d7b05855f07272e80eafd0ea7097d5df582c74308991"
+    },
+    {
+      "path": "v11/recovery_config.json",
+      "sha256": "c7a123a5edb56650dc7e26b94f3324e03982e887c5aff0a173f5ac2420b75019"
+    },
+    {
+      "path": "v10/appearance_tracker.py",
+      "sha256": "38ead4b053de269caf0c18143f7442bf4ca37794a9a8402c33709999576588d2"
+    },
+    {
+      "path": "v5/botsort_reid.yaml",
+      "sha256": "f4e53050a713d4381092215982bed77b81acb0438eb8b169a9c3b544bccf45be"
+    },
+    {
+      "path": "v7/data/HockeyAI.pt",
+      "sha256": "58ac4450b4bd2545aaff43812bd05171af3383f30195aab5e010571039cf6d90"
+    },
+    {
+      "path": "v12/hub/checkpoints/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    }
+  ]
+}

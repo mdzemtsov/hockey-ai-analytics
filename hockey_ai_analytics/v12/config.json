@@ -1,0 +1,1 @@
+{"team_max_distance":0.55,"team_margin":0.12,"team_min_separation":0.25,"identity_min_cosine":0.65,"identity_negative_margin":0.03,"negative_exclusion_iou":0.3,"encoder_size":[112,224]}

@@ -1,0 +1,10 @@
+{
+  "experiment": "V10-D reduce overlapping first-frame prompts",
+  "fixed_before_execution": true,
+  "development_sequence": "CHI_VS_TOR_004",
+  "motivation": "V10-C audit: reference10 has8 switches; first-frame detector boxes6,8,10 overlap strongly, potentially initializing duplicate SAM hypotheses.",
+  "change": "greedy same-class seed NMS, descending detector confidence, suppress IoU>0.5",
+  "unchanged": "SAM weights, all frames, stable fusion thresholds, original detector boxes still retained for baseline fallback",
+  "risk": "suppresses distinct players overlapping at initialization; this is an experiment, not accepted improvement",
+  "holdout": "Do not change currently running frozen V10-C holdout. V10-D would require further validation."
+}

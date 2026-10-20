@@ -1,0 +1,18 @@
+{
+  "experiment": "V10-H second unseen 30-second segment",
+  "sequence": "CNTRL_VS_PAC_001",
+  "split": "personnel-level-format/test",
+  "first_frame": 1,
+  "last_frame": 900,
+  "native_fps": 30,
+  "source_seq_length": 1671,
+  "duration_seconds": 30,
+  "source_name": "allstar_2019_001",
+  "backends": ["baseline","ocsort","deepocsort"],
+  "frozen_before_download": true,
+  "purpose": "Test transfer of fixed alternatives; none wins consistently on all four development clips. Do not tune or claim improvement selectively.",
+  "configs": "baseline V5 botsort_reid.yaml; candidates same V10-G copied configs",
+  "image": "848x477, HockeyAI, imgsz960, confidence0.1, iou0.7, classes3/4/6",
+  "gt": "read only after each run saved",
+  "limitations": "All-Star named source; not automatically representative of youth or standard five-on-five gameplay."
+}

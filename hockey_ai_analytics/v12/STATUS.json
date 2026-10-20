@@ -1,0 +1,10 @@
+{
+  "status": "IMPLEMENTED_TESTED_REJECTED",
+  "deployment": false,
+  "independent_human_review": false,
+  "validation_interval_consumed": true,
+  "tests_passed": 10,
+  "verified_videos": 4,
+  "notion": "https://app.notion.com/p/3ffc8554a5d6816fa2d2cc8ef042dabe",
+  "next": "Hockey-specific multiview identity evidence; reviewed data and hard same-team negatives; no automatic learning from uncertain matches"
+}

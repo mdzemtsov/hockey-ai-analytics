@@ -1,0 +1,13 @@
+{
+  "experiment": "V10-B multi-object SAM confirmation",
+  "sequence": "CHI_VS_TOR_004",
+  "frames": 300,
+  "seeds": "all V9 first-frame detector boxes confidence >= 0.25; no GT initialization",
+  "sam": "same SAM2.1 tiny, CPU, imgsz1024 as V9",
+  "matching": "one-to-one Hungarian IoU; accept IoU >= 0.5 and row/column alternative margin >= 0.15",
+  "matched_id": "1000 + SAM prompt index",
+  "unmatched_id": "10000 + baseline tracker ID (explicit fallback; may fragment)",
+  "scores": "SAM scores are presence flags, not calibrated identity probability",
+  "evaluation": "GT read only after all predictions saved; unchanged full-scene IoU0.5 metrics",
+  "scope": "development diagnostic; all objects seeded in first frame only, new entries use baseline"
+}

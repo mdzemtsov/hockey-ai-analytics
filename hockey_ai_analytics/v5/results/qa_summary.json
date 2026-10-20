@@ -1,0 +1,76 @@
+{
+  "version": "V5",
+  "states": {
+    "NOT_STARTED": 90,
+    "TRACKING": 286,
+    "AMBIGUOUS": 45,
+    "LOST": 3
+  },
+  "eligible_frames": 317,
+  "matched_visible_frames": 285,
+  "coverage": 0.8990536277602523,
+  "mean_center_error_px_conditional": 3.5084453254697543,
+  "max_center_error_px": 9.90810023510694,
+  "manual_anchor_eligible": 23,
+  "manual_anchor_matched": 22,
+  "manual_anchor_mean_center_error_px": 3.3123745702080307,
+  "confirmed_wrong_target_frames_on_reviewed_visible_intervals": 0,
+  "observed_target_identity_transitions_on_reviewed_visible_intervals": 0,
+  "predictions_on_uncertain_reference_frames": 1,
+  "all_other_ids": "UNVERIFIED; no multi-object IDF1/HOTA claimed",
+  "tracked_model_id_hypotheses": 24,
+  "median_person_hypotheses_per_frame": 11.0,
+  "min_person_hypotheses_per_frame": 8,
+  "max_person_hypotheses_per_frame": 12,
+  "breaks": [
+    {
+      "start_frame": 156,
+      "end_frame": 158,
+      "start_pts_s": 5.1850000000000005,
+      "end_pts_s": 5.251666666666667,
+      "frames": 3
+    },
+    {
+      "start_frame": 173,
+      "end_frame": 177,
+      "start_pts_s": 5.751666666666667,
+      "end_pts_s": 5.885000000000001,
+      "frames": 5
+    },
+    {
+      "start_frame": 214,
+      "end_frame": 221,
+      "start_pts_s": 7.118333333333334,
+      "end_pts_s": 7.3516666666666675,
+      "frames": 8
+    },
+    {
+      "start_frame": 289,
+      "end_frame": 293,
+      "start_pts_s": 9.618333333333334,
+      "end_pts_s": 9.751666666666667,
+      "frames": 5
+    },
+    {
+      "start_frame": 348,
+      "end_frame": 367,
+      "start_pts_s": 11.585,
+      "end_pts_s": 12.218333333333334,
+      "frames": 20
+    },
+    {
+      "start_frame": 369,
+      "end_frame": 375,
+      "start_pts_s": 12.285,
+      "end_pts_s": 12.485000000000001,
+      "frames": 7
+    }
+  ],
+  "ends_tracking": true,
+  "ground_truth": "30 manual assistant anchors + reviewed interpolation; provisional",
+  "gate_replay_identical": true,
+  "puck_tracking": false,
+  "possession": false,
+  "tactical_inference": false,
+  "release": "DEVELOPMENT_PROGRESS_NOT_RELEASE_VALIDATED"
+}

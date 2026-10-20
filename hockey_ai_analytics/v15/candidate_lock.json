@@ -1,0 +1,6 @@
+{
+  "sha256": "2ea53e967d3b43e81c3e28855469f941844718e3e7a2621e2be7431de8312822",
+  "status": "frozen before validation images viewed",
+  "labels": "assistant visual audit, not independent human ground truth",
+  "promotion_rule": "no increase in wrong color assignments or mixed/referee assignments"
+}

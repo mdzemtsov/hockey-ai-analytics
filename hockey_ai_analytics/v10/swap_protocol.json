@@ -1,0 +1,13 @@
+{
+  "experiment": "V10-E reciprocal appearance-supported swaps only",
+  "fixed_before_execution": true,
+  "development": "CHI_VS_TOR_004",
+  "inputs": "original V10-B cached SAM prompts, original V9 detector trajectories and images",
+  "change": "Do not globally relabel tracks. Swap identities only for a reciprocal two-track pair supported by three consecutive SAM associations and frozen first-frame appearance of both identities.",
+  "geometry": "IoU>=0.5 and row/column margin>=0.15",
+  "appearance": "each crop is at least 0.15 closer to proposed immutable seed than to current identity seed; proposed distance<=0.5; seeds separated>=0.25",
+  "new_unseeded_players": "unchanged baseline",
+  "missing_evidence": "no new identity changes",
+  "limitations": "same-uniform swaps not solved; inherited baseline errors remain; initial appearance contaminated by occlusion can mislead",
+  "holdout_policy": "CAR-NYR already used to reject V10-C; any reuse for V10-E is additional diagnostic, NOT fresh independent validation."
+}

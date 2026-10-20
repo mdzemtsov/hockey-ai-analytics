@@ -1,0 +1,8 @@
+{
+  "status": "TRAINED_TESTED_NOT_QUALIFIED",
+  "deployed": false,
+  "independent_human_review": "pending",
+  "trained_component": "metric head over frozen DINOv2",
+  "notion": "https://app.notion.com/p/3ffc8554a5d68176badbc08e785fd657",
+  "automation": "paused"
+}

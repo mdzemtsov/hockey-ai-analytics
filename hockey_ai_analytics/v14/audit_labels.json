@@ -1,0 +1,6 @@
+{
+ "reviewer":"Assistant sampled visual audit; not independent human verification. Unchanged publisher IDs used only after exclusions; remaining crops still weakly verified.",
+ "CAR_VS_BOS_001":{"teams":{"12":"CAR","10":"CAR","11":"CAR","14":"BOS","15":"CAR","17":"CAR","16":"BOS","13":"BOS","36":"BOS","8":"BOS","26":"CAR","47":"BOS"},"validation_ids":[17,14],"excluded":{"7":"sampled ID switches between different goalies/teams","35":"referee","18":"referee","54":"referee"}},
+ "CGY_VS_DAL_003":{"teams":{"1":"DAL","3":"CGY","4":"DAL","2":"CGY","9":"CGY","5":"DAL","6":"DAL","20":"CGY","32":"CGY","13":"CGY","23":"CGY"},"validation_ids":[4,13],"excluded":{"7":"referee","8":"goalie","14":"goalie","10":"uncertain sampled identity","33":"potential duplicate of ID4: visible DAL jersey 18; excluded rather than treating as another person"}},
+ "STL_VS_SJ_001":{"teams":{"7":"STL","3":"STL","2":"SJ","9":"STL","4":"STL","24":"SJ","1":"SJ","8":"STL","10":"SJ","46":"SJ","50":"SJ"},"validation_ids":[7,24],"excluded":{"6":"goalie/skater inconsistency","5":"referee","11":"sampled ID changes white to green team","44":"referee","23":"referee"}}
+}

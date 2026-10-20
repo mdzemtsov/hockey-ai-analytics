@@ -1,5 +1,7 @@
 # Hockey AI Analytics
 
+**Partner: start with [the handoff guide](docs/PARTNER_START_HERE.md).**
+
 Private, experimental local video review for hockey: explicit player selection, conservative tracking, pause-point graphics and English/Russian synthesized narration.
 
 **Not a validated autonomous coach.** Team recognition and puck detection remain inconsistent. Player identities, possession, zones, roles, good/bad decisions and safe skating routes are not established. Read [the baseline QA](docs/BASELINE_QA.md) before interpreting output.
@@ -35,7 +37,8 @@ These tests cover selection safety, cache integrity and coaching rules using syn
 
 - `hockey_ai_analytics/v6/`: active app and tests.
 - `hockey_ai_analytics/v5/botsort_reid.yaml`: tracking configuration used by the app.
-- `experiments/v15/`: rejected color candidate and evaluation code; external audit data is required.
+- `hockey_ai_analytics/v5`–`v15/`: earlier trackers, experiments, training/evaluation code, protocols and reports.
+- `experiments/v15/`: initial standalone rejected color-candidate snapshot; the fuller historical package is under `hockey_ai_analytics/v15/`.
 - `docs/`: QA baseline, data policy and research roadmap.
 - `assets.json`: externally obtained model manifest.
 
@@ -45,4 +48,4 @@ The versioned directory layout is retained so the working app's relative paths r
 
 Keep source media, player crops, raw annotations, credentials and model binaries outside Git. Never promote a model because it produces more labels: compare errors and abstentions on a fixed validation set. No future ground truth in inference. Explicit human selection is not independent ground truth. Do not identify the test player as Matvey. See [data policy](docs/DATA_POLICY.md).
 
-This is a baseline snapshot, not the full historical experiment archive. Existing local videos and historical outputs remain untouched. No open-source license is granted by this private repository; third-party code and models retain their own terms.
+This source handoff now includes the active app plus first-party historical research across V4–V15, training/evaluation code, protocols, aggregate metrics and QA. It is not a complete data/checkpoint archive. Existing local videos and historical outputs remain untouched. No open-source license is granted by this private repository; third-party code and models retain their own terms.

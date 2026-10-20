@@ -1,0 +1,92 @@
+{
+  "name": "Identity recovery benchmark v1",
+  "status": "frozen case list before scoring",
+  "development_source": "CHI_VS_TOR_004",
+  "fps": 30,
+  "reference": "Unchanged publisher personnel-level GT, independent of tested trackers; NOT independently human-verified by this project",
+  "seed": "Perfect publisher box on first case frame, disclosed manual-selection surrogate; only seed box exposed to future inference",
+  "cases": [
+    {
+      "id": "cross_blue",
+      "group": "cross_63",
+      "target": 3,
+      "first": 45,
+      "last": 85,
+      "event": 63,
+      "type": "cross_team_overlap"
+    },
+    {
+      "id": "cross_white",
+      "group": "cross_63",
+      "target": 14,
+      "first": 45,
+      "last": 85,
+      "event": 63,
+      "type": "cross_team_overlap"
+    },
+    {
+      "id": "boards_blue",
+      "group": "cross_141",
+      "target": 1,
+      "first": 115,
+      "last": 160,
+      "event": 141,
+      "type": "cross_team_overlap"
+    },
+    {
+      "id": "boards_white",
+      "group": "cross_141",
+      "target": 21,
+      "first": 115,
+      "last": 160,
+      "event": 141,
+      "type": "cross_team_overlap"
+    },
+    {
+      "id": "edge_skater",
+      "group": "pan_220",
+      "target": 2,
+      "first": 175,
+      "last": 245,
+      "event": 222,
+      "type": "camera_pan_exit_reentry"
+    },
+    {
+      "id": "edge_goalie",
+      "group": "pan_220",
+      "target": 13,
+      "first": 175,
+      "last": 245,
+      "event": 226,
+      "type": "camera_pan_exit_reentry"
+    },
+    {
+      "id": "near_boards",
+      "group": "near_271",
+      "target": 2,
+      "first": 250,
+      "last": 290,
+      "event": 271,
+      "type": "partial_occlusion_fragmentation"
+    }
+  ],
+  "scoring": {
+    "iou": 0.5,
+    "seed_margin": 0.1,
+    "recovery_stability_frames": 3,
+    "absence": "no output expected; absence is not a recovery success",
+    "uncertain": "review uncertainty retained separately; never silently relabel or interpolate",
+    "latency": "Elapsed time from first visible miss, wrong/misaligned output or output while absent to the first three consecutive correct frames. None means no recovery within case; event frame is contextual, not used to hide earlier failures.",
+    "wrong_person": "output failing target IoU but matching any other publisher ID at IoU>=0.5"
+  },
+  "reserved_validation": {
+    "sequence": "CNTRL_VS_PAC_001",
+    "first": 901,
+    "last": 1500,
+    "status": "reserved, not downloaded or scored",
+    "scope": "unseen temporal continuation of a previously tested match, NOT an independent-match holdout",
+    "rule": "lock candidate code/config before downloading and inspecting this interval; include all 600 frames, no event cherry-picking"
+  },
+  "split_rule": "paired targets share one event group; never split overlapping event groups across development and validation",
+  "release": "benchmark may be used for development with publisher labels; no claim of independently human-verified ground truth until separate review"
+}

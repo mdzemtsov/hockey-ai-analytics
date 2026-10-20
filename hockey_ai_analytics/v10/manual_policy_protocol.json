@@ -1,0 +1,11 @@
+{
+  "experiment": "V10-F manual reconfirmation after identity uncertainty",
+  "fixed_before_execution": true,
+  "data": "four existing V9 300-frame clips; previously chosen first-frame box only",
+  "compare": "unchanged V6 ManualGate vs latched ReconfirmationGate on same V9 cached detections",
+  "scale": "848x477 coordinate space for both policies; original V6 pixel motion threshold retained",
+  "team": "UNKNOWN for every object to avoid unreliable team labels as identity evidence",
+  "latch": "any ambiguity or loss after start requires a new explicit anchor; no automatically supplied future anchors",
+  "warning": "A no-switch result obtained by abstaining is not successful tracking. Report correct coverage and first blocking frame.",
+  "scope": "policy diagnostic, not end-to-end V6 benchmark because detector inputs differ"
+}

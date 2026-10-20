@@ -1,0 +1,30 @@
+{
+  "CAR_VS_BOS_001": {
+    "sampled": 5,
+    "errors": 0,
+    "recognized": [
+      {
+        "confidence": 1,
+        "text": "2."
+      },
+      {
+        "confidence": 1,
+        "text": "22"
+      },
+      {
+        "confidence": 1,
+        "text": "22"
+      }
+    ]
+  },
+  "CGY_VS_DAL_003": {
+    "sampled": 6,
+    "errors": 0,
+    "recognized": []
+  },
+  "CHI_VS_TOR_004": {
+    "sampled": 9,
+    "errors": 0,
+    "recognized": []
+  }
+}

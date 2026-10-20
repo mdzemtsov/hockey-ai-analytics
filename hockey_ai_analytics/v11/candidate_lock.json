@@ -1,0 +1,31 @@
+{
+  "locked_utc": "2026-10-20T15:54:04.209472+00:00",
+  "candidate": "causal_recovery_v1",
+  "validation": "CNTRL_VS_PAC_001 frames 901\u20131500; fresh tracker at 901; baseline and candidate share predictions; manual seeds from frame901 before reference inspection",
+  "files": [
+    {
+      "path": "v11/recovery.py",
+      "sha256": "a2960ea820fa7a43e570d7b05855f07272e80eafd0ea7097d5df582c74308991"
+    },
+    {
+      "path": "v11/recovery_config.json",
+      "sha256": "c7a123a5edb56650dc7e26b94f3324e03982e887c5aff0a173f5ac2420b75019"
+    },
+    {
+      "path": "v11/run_recovery.py",
+      "sha256": "5414928742a2357bda8577e441df3555e9d69e52f6cfc111b80ce2c12fc55719"
+    },
+    {
+      "path": "v10/appearance_tracker.py",
+      "sha256": "38ead4b053de269caf0c18143f7442bf4ca37794a9a8402c33709999576588d2"
+    },
+    {
+      "path": "v5/botsort_reid.yaml",
+      "sha256": "f4e53050a713d4381092215982bed77b81acb0438eb8b169a9c3b544bccf45be"
+    },
+    {
+      "path": "v7/data/HockeyAI.pt",
+      "sha256": "58ac4450b4bd2545aaff43812bd05171af3383f30195aab5e010571039cf6d90"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "DARK_TEST_08": {
+    "baseline": {
+      "correct": 178,
+      "lost": 710,
+      "wrong_or_misaligned": 12,
+      "output_while_target_absent": 0,
+      "visible_frames": 756,
+      "visible_lost": 566,
+      "matches_other_identity": 7,
+      "correct_visible_coverage": 0.23544973544973544,
+      "first_frame_reference_id": 7,
+      "initial_model_id": 3
+    },
+    "ocsort": {
+      "correct": 177,
+      "lost": 710,
+      "wrong_or_misaligned": 13,
+      "output_while_target_absent": 0,
+      "visible_frames": 756,
+      "visible_lost": 566,
+      "matches_other_identity": 7,
+      "correct_visible_coverage": 0.23412698412698413,
+      "first_frame_reference_id": 7,
+      "initial_model_id": 3
+    },
+    "deepocsort": {
+      "correct": 178,
+      "lost": 710,
+      "wrong_or_misaligned": 12,
+      "output_while_target_absent": 0,
+      "visible_frames": 756,
+      "visible_lost": 566,
+      "matches_other_identity": 8,
+      "correct_visible_coverage": 0.23544973544973544,
+      "first_frame_reference_id": 7,
+      "initial_model_id": 3
+    }
+  },
+  "LIGHT_TEST_55": {
+    "baseline": {
+      "correct": 167,
+      "lost": 733,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 841,
+      "visible_lost": 674,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.1985731272294887,
+      "first_frame_reference_id": 4,
+      "initial_model_id": 1
+    },
+    "ocsort": {
+      "correct": 163,
+      "lost": 734,
+      "wrong_or_misaligned": 3,
+      "output_while_target_absent": 0,
+      "visible_frames": 841,
+      "visible_lost": 675,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.1938168846611177,
+      "first_frame_reference_id": 4,
+      "initial_model_id": 1
+    },
+    "deepocsort": {
+      "correct": 144,
+      "lost": 755,
+      "wrong_or_misaligned": 1,
+      "output_while_target_absent": 0,
+      "visible_frames": 841,
+      "visible_lost": 696,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.17122473246135553,
+      "first_frame_reference_id": 4,
+      "initial_model_id": 1
+    }
+  }
+}

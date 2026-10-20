@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-20T16:45:32.669137+00:00",
+  "files": [
+    {
+      "path": "v13/metric_model.py",
+      "sha256": "8618e4d62793ba739090effffcf6bd16e4ddb1d31c5e75b61e3915c16f8fb447"
+    },
+    {
+      "path": "v13/prepare_features.py",
+      "sha256": "24f8a8862113e96541d58a63b604dcc3a3e9000edff59c96f0faf1e88e0b53fd"
+    },
+    {
+      "path": "v13/train.py",
+      "sha256": "9b486bb8aa2e6db93ed99334bb5d7bc377be7a0111f832e8497577bb6f445f16"
+    },
+    {
+      "path": "v13/retrieval.py",
+      "sha256": "94cad234aa7e70dd68b4e45515f60edbf4682a170f42a3ee073e49de21edbbe3"
+    },
+    {
+      "path": "v13/test_holdout.py",
+      "sha256": "e4f59db4620eedc44e585caba82c5490f59160d97c1dbcd8dce27b877da7c455"
+    },
+    {
+      "path": "v13/protocol.json",
+      "sha256": "f305896e36fe1e0b44dec8b37f19b534ec8d74d3f7862557e66a40250f471eaa"
+    },
+    {
+      "path": "v13/audit_labels.json",
+      "sha256": "618c7c603762ecf322de830ac9ccba595a71d641215c4b751d470b120eac3e8d"
+    },
+    {
+      "path": "v13/gallery_labels.json",
+      "sha256": "9937d586a1a241aad6e883fe2951f292e432898a59c604489fd72fc43fceef18"
+    },
+    {
+      "path": "v13/gallery.json",
+      "sha256": "436e4957ca8c42c50db8291e3a4e135ac1116307ad7d9c56fd5caf270e4257a6"
+    },
+    {
+      "path": "v13/gallery.npz",
+      "sha256": "aa04030e9f9ac232fd687cff1365f0324723a9979900bfe808e636fc6ce717a7"
+    },
+    {
+      "path": "v13/features.json",
+      "sha256": "77a784a5dcd506323c7b90bb6901b08fa0482e40a869a904bed099c6f9f76154"
+    },
+    {
+      "path": "v13/features.npz",
+      "sha256": "b546bfe397dab60badbe0e561aa31d477ab65bcdcbe9598e6cb46eb88e8ae683"
+    },
+    {
+      "path": "v13/hockey_metric_head.pt",
+      "sha256": "322f80462def70acbf89382a40742ecc45b3a02f584ca83c722a93fef48a139d"
+    },
+    {
+      "path": "v13/calibration.json",
+      "sha256": "7622da43a305f0e1a93f86f303f2ec2c14e2f4440475e4b3de5d82525f720eae"
+    },
+    {
+      "path": "v12/evidence.py",
+      "sha256": "6b80acf3a282e181ac2cfe9990c8ca5dd0b628d25e32ba6673eda249434a1978"
+    },
+    {
+      "path": "v12/encoder_source.json",
+      "sha256": "da9cf720e94bc96c2f0a68aa82853505db5221fe55754cb31e9164c1d6f4e705"
+    },
+    {
+      "path": "v12/hub/checkpoints/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "readiness": "READY_FOR_HYPOTHESES",
+  "counts": {
+    "TEAM_A": 1470,
+    "TEAM_B": 871,
+    "UNKNOWN": 180,
+    "NOT_APPLICABLE": 139
+  },
+  "warning": "Coverage of hypotheses only, not accuracy; team ground truth unavailable."
+}

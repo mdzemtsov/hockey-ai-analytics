@@ -1,0 +1,6 @@
+{
+ "reviewer":"assistant visual inspection of four sampled real crops per candidate; NOT independent human verification",
+ "CAR_VS_BOS_001":{"teams":{"8":"BOS","10":"CAR","11":"CAR","40":"CAR","44":"BOS","13":"BOS","12":"CAR","17":"CAR","45":"BOS"},"validation_ids":[17,45],"excluded":{"43":"blurred/mixed sampled crop; uncertain","46":"referee","41":"referee","61":"referee","31":"goalie"}},
+ "CGY_VS_DAL_003":{"teams":{"33":"DAL","22":"CGY","30":"CGY","23":"CGY"},"validation_ids":[33,22],"excluded":{"14":"goalie","34":"referee"}},
+ "STL_VS_SJ_001":{"teams":{"7":"STL","24":"SJ","4":"STL","8":"STL","3":"STL","2":"SJ","1":"SJ","9":"STL","42":"SJ"},"validation_ids":[7,24],"excluded":{"41":"referee","6":"goalie","40":"referee","47":"blurred sampled crops; uncertain"}}
+}

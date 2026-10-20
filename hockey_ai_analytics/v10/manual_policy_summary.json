@@ -1,0 +1,98 @@
+{
+  "CAR_VS_BOS_001": {
+    "auto_recovery": {
+      "correct": 140,
+      "lost": 153,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 7,
+      "visible_frames": 140,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "first_nontracking_frame": 148
+    },
+    "explicit_reconfirmation": {
+      "correct": 140,
+      "lost": 153,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 7,
+      "visible_frames": 140,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "first_nontracking_frame": 148
+    }
+  },
+  "CGY_VS_DAL_003": {
+    "auto_recovery": {
+      "correct": 173,
+      "lost": 127,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 173,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "first_nontracking_frame": 174
+    },
+    "explicit_reconfirmation": {
+      "correct": 173,
+      "lost": 127,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 173,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "first_nontracking_frame": 174
+    }
+  },
+  "CHI_VS_TOR_004": {
+    "auto_recovery": {
+      "correct": 49,
+      "lost": 229,
+      "wrong_or_misaligned": 22,
+      "output_while_target_absent": 0,
+      "visible_frames": 262,
+      "visible_lost": 191,
+      "matches_other_identity": 22,
+      "correct_visible_coverage": 0.18702290076335878,
+      "first_nontracking_frame": 50
+    },
+    "explicit_reconfirmation": {
+      "correct": 49,
+      "lost": 251,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 262,
+      "visible_lost": 213,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.18702290076335878,
+      "first_nontracking_frame": 50
+    }
+  },
+  "STL_VS_SJ_001": {
+    "auto_recovery": {
+      "correct": 263,
+      "lost": 37,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 300,
+      "visible_lost": 37,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.8766666666666667,
+      "first_nontracking_frame": 24
+    },
+    "explicit_reconfirmation": {
+      "correct": 23,
+      "lost": 277,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 300,
+      "visible_lost": 277,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.07666666666666666,
+      "first_nontracking_frame": 24
+    }
+  }
+}

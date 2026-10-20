@@ -1,0 +1,12 @@
+{
+  "experiment": "V10-G installed observation-centric trackers",
+  "frozen_before_run": true,
+  "sequences": ["CHI_VS_TOR_004","CAR_VS_BOS_001","CGY_VS_DAL_003","STL_VS_SJ_001"],
+  "frames": 300,
+  "backends": ["ocsort","deepocsort"],
+  "input": "Fresh inference, same HockeyAI model,848x477 images,imgsz960,conf0.1,iou0.7,humanclasses3/4/6",
+  "configs": "Copied installed ultralytics8.4.182 tracker configs. DeepOCSORT enabled auto detector-feature ReID and sparseOptFlow GMC; high/new thresholds matched baseline0.25. Other defaults unchanged.",
+  "scope": "All four are development data already seen. No new independent holdout claim.",
+  "selection_rule": "Compare all four clips; do not choose only best CHI score. Track precision/recall/IDF1/switches and selected-player errors.",
+  "gt": "read only after each inference saved"
+}

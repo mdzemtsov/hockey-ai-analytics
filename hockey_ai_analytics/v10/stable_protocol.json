@@ -1,0 +1,12 @@
+{
+  "experiment": "V10-C persistent identity aliases",
+  "frozen_before_replay": true,
+  "development_sequence": "CHI_VS_TOR_004",
+  "reason": "V10-B changes identity namespace on every SAM disagreement, causing 218 switches despite IDF1 improvement.",
+  "seed_identity": "map SAM prompt to original first-frame detector ID",
+  "confirmation": "same unique IoU0.5 margin0.15 association on three consecutive frames",
+  "temporary_missing_SAM": "retain previous alias, never treat as newly confirmed",
+  "conflict": "unique reserved ID 100000+input ID, explicitly UNKNOWN",
+  "limitation": "false SAM confirmation may persist; one-clip development, not proven safety",
+  "gt": "evaluation only after predictions"
+}

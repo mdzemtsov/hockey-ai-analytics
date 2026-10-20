@@ -1,0 +1,1038 @@
+{
+  "scope": "First-party research code, configs, reports and aggregate metrics. Historical paths refer to the original local archive; missing assets are intentional.",
+  "files": [
+    {
+      "path": "hockey_ai_analytics/QA_report.md",
+      "sha256": "7e0f68038ed98ebeee39745d974a8536055f0231b942da7e3269dd3529bd7a98",
+      "bytes": 12188
+    },
+    {
+      "path": "hockey_ai_analytics/README.md",
+      "sha256": "2c0fa171f50adaa2394016e69e2bd265857bef0aa3f70898d87424d810bb436a",
+      "bytes": 3780
+    },
+    {
+      "path": "hockey_ai_analytics/evaluate.py",
+      "sha256": "2d60aacb930b9b17891577b5c7fcae74746d47673f34c8b3f25d0d36a5c14fef",
+      "bytes": 7010
+    },
+    {
+      "path": "hockey_ai_analytics/finalize_benchmark.py",
+      "sha256": "dc561501ec242f698925e9cb76a66c95456c30ab051c6e436164cf7441b7f89f",
+      "bytes": 8408
+    },
+    {
+      "path": "hockey_ai_analytics/inspect_video.swift",
+      "sha256": "a6fde05673f86a9bb1a7ca645a31151364a606224e0f6907b1463817acfbde0e",
+      "bytes": 1099
+    },
+    {
+      "path": "hockey_ai_analytics/make_review.py",
+      "sha256": "2a605988aa29f27efe57f5247493170d898c68a715735dc0196b5551d2966a19",
+      "bytes": 2367
+    },
+    {
+      "path": "hockey_ai_analytics/requirements.txt",
+      "sha256": "0bb7678040f72ddc716c88293bf0ec50b07ce867aa4d17146e8c0c699e264c83",
+      "bytes": 83
+    },
+    {
+      "path": "hockey_ai_analytics/run_benchmark.py",
+      "sha256": "09ebd88583e8a08bc8a6dd19a870062e1c0e5abc4f79fede9dc6181f06f5ef6e",
+      "bytes": 3281
+    },
+    {
+      "path": "hockey_ai_analytics/tests/test_evaluate.py",
+      "sha256": "42895a686fac71d843598e40235297cef087c78936115b262f8f58d9f11d5d80",
+      "bytes": 2979
+    },
+    {
+      "path": "hockey_ai_analytics/tests/test_tracker.py",
+      "sha256": "9266849e831dc0e49fcda26b37e7311c30d4cce378db4a03a4e2433e8cf17f25",
+      "bytes": 1039
+    },
+    {
+      "path": "hockey_ai_analytics/tracker_v4.py",
+      "sha256": "2bfce55832fcbcadfb996ac32743c2cb3c170c10efb2f5c034a8847ff9b5f922",
+      "bytes": 5691
+    },
+    {
+      "path": "hockey_ai_analytics/v10/MORNING_REPORT.md",
+      "sha256": "868bc35510c64fbc592f8ed2adb392a8261f9234deb791169605c1e70feef152",
+      "bytes": 7506
+    },
+    {
+      "path": "hockey_ai_analytics/v10/QA_report.md",
+      "sha256": "8f42a244f907a8d7a292f50468e8c5eaf6d8437a66d8216f29eb524f8b6d7c5b",
+      "bytes": 22687
+    },
+    {
+      "path": "hockey_ai_analytics/v10/README.md",
+      "sha256": "1ff2ebee5b2db617189bb15759daccae8bc51a39e5ca8644452b6da127b33247",
+      "bytes": 3955
+    },
+    {
+      "path": "hockey_ai_analytics/v10/appearance_protocol.json",
+      "sha256": "8fda83ce88479f6965850d8897fbcfc5b682240e1421822ba2297533591a91ca",
+      "bytes": 911
+    },
+    {
+      "path": "hockey_ai_analytics/v10/appearance_summary.json",
+      "sha256": "91488eb938fdba271b5994058680881ba2ddc2faf940e120e2eff714e2573f43",
+      "bytes": 3112
+    },
+    {
+      "path": "hockey_ai_analytics/v10/appearance_tracker.py",
+      "sha256": "38ead4b053de269caf0c18143f7442bf4ca37794a9a8402c33709999576588d2",
+      "bytes": 4342
+    },
+    {
+      "path": "hockey_ai_analytics/v10/audit.py",
+      "sha256": "7d81c0e9172c19ab8abccf010da7f6416a2d71bcbc80d190e70830165730e4b6",
+      "bytes": 4018
+    },
+    {
+      "path": "hockey_ai_analytics/v10/benchmark_trackers.py",
+      "sha256": "18994b8a0475d2608a79c052cbbbb412078b0001741dec293b60e36c598e8e8b",
+      "bytes": 1928
+    },
+    {
+      "path": "hockey_ai_analytics/v10/download_holdout.py",
+      "sha256": "bc5066765434a995a9acaf195daf090bab2c580f2df1f93653ef0e7b8f05d931",
+      "bytes": 1529
+    },
+    {
+      "path": "hockey_ai_analytics/v10/evaluate_second_selection.py",
+      "sha256": "9bace7183d89c9aa025b300dd7415b82589d702b48d0f9f78fabd1cfadf76614",
+      "bytes": 1892
+    },
+    {
+      "path": "hockey_ai_analytics/v10/evaluate_tracker_selection.py",
+      "sha256": "99103a11080bd5ef3aac75514d8a8602033a602bcedda1b28a6f259a45b26732",
+      "bytes": 1640
+    },
+    {
+      "path": "hockey_ai_analytics/v10/evaluation.py",
+      "sha256": "3944b7baf3202a58d9a0dcc2fb038810623f1d9ef4e124a209e3264c9e4d1d9e",
+      "bytes": 1532
+    },
+    {
+      "path": "hockey_ai_analytics/v10/external_dependencies.json",
+      "sha256": "cacd4c9eaaa9e8819e4fe642dd371dc011d986be24b0cd719e84b89066475e1a",
+      "bytes": 1286
+    },
+    {
+      "path": "hockey_ai_analytics/v10/long_holdout_protocol.json",
+      "sha256": "4c29bcd8375ba2ba99a54a76cf03401624c089b5043cdcb6d6eac6eefdcbee7c",
+      "bytes": 575
+    },
+    {
+      "path": "hockey_ai_analytics/v10/manual_policy_protocol.json",
+      "sha256": "2ccc820e03f10baa3d90c2ceca9fa0be1d06bf614d3e57517b041497d2184500",
+      "bytes": 838
+    },
+    {
+      "path": "hockey_ai_analytics/v10/manual_policy_summary.json",
+      "sha256": "e0439ab6f837fff1a3de5bdb5dd445890c7558cb7dc88cf54001cbb825191e55",
+      "bytes": 2665
+    },
+    {
+      "path": "hockey_ai_analytics/v10/multisam_protocol.json",
+      "sha256": "dbba5ccad2ef9b296d8575187362786784ecf76e2759369ae472c3238aade90f",
+      "bytes": 758
+    },
+    {
+      "path": "hockey_ai_analytics/v10/nms_protocol.json",
+      "sha256": "cffabd9102e279bfcb8d37d83a729991a81f91d72ca7c35c637b2a3a894109c2",
+      "bytes": 758
+    },
+    {
+      "path": "hockey_ai_analytics/v10/package_results.py",
+      "sha256": "5d51ae27f47215e20b75947057c199b3c97ac10e6c46109994f04282511f7a8b",
+      "bytes": 1454
+    },
+    {
+      "path": "hockey_ai_analytics/v10/reciprocal_swap.py",
+      "sha256": "a980d8ae0a2e1b8f659ab58a1cfe0dd883012748340986696391aef924a8e7e5",
+      "bytes": 2954
+    },
+    {
+      "path": "hockey_ai_analytics/v10/reconfirmation_gate.py",
+      "sha256": "901a133eb2486681d304b99cce9dabbc9007e257fc861eb2827fdcf729589260",
+      "bytes": 1110
+    },
+    {
+      "path": "hockey_ai_analytics/v10/render_second.py",
+      "sha256": "f6482fcda42dcd049b58c321018216015c667f9a507f2424ddfb889a79c207ad",
+      "bytes": 2712
+    },
+    {
+      "path": "hockey_ai_analytics/v10/render_stable.py",
+      "sha256": "656354c5f7a8432a5f90e8645d17b872e0ac1ba9ff383df13240167854f94b4b",
+      "bytes": 2874
+    },
+    {
+      "path": "hockey_ai_analytics/v10/replay_stable.py",
+      "sha256": "4ffee9557856a7741575910f1b99a0bea732f823f66243aacd6244530a7ef8a4",
+      "bytes": 1548
+    },
+    {
+      "path": "hockey_ai_analytics/v10/replay_swap.py",
+      "sha256": "7d3366bacff2821529be6624b489c1021a79ea04150b8001c04a2a7c4b963526",
+      "bytes": 1793
+    },
+    {
+      "path": "hockey_ai_analytics/v10/requirements_lock.txt",
+      "sha256": "f26a8609de816f4a856393223bb99fbb8d739ec89b3c762764cef9fc4f5e4387",
+      "bytes": 1401
+    },
+    {
+      "path": "hockey_ai_analytics/v10/review_long.py",
+      "sha256": "77ed86c41ecab9ec16685da5c0b0b3712a0a49454ede6d2c0a331e7b4d16c253",
+      "bytes": 3287
+    },
+    {
+      "path": "hockey_ai_analytics/v10/run_appearance.py",
+      "sha256": "c3b26d8ba2d6b6d054df99139931991617daa109c9dff8b6830c77d1a3039082",
+      "bytes": 1844
+    },
+    {
+      "path": "hockey_ai_analytics/v10/run_long_baseline.py",
+      "sha256": "2c66f18a773815ddbe19c99eb7bf8620a1a12a4646ff924a89ce358274e3dcd8",
+      "bytes": 2281
+    },
+    {
+      "path": "hockey_ai_analytics/v10/run_long_candidate.py",
+      "sha256": "ad0843f389c150452a0e2bf23dee9f1412a29c62b4eb84dc89ea44ef40ac20a5",
+      "bytes": 3761
+    },
+    {
+      "path": "hockey_ai_analytics/v10/run_multisam.py",
+      "sha256": "f9b7a4388da125c86779424e1539d2493e23646d40b75f9fc7ebb38731561289",
+      "bytes": 4141
+    },
+    {
+      "path": "hockey_ai_analytics/v10/run_team_calibration.py",
+      "sha256": "75028ebc5bacb723a497bed604018be3dbde326b8c72594e2bcf5f5b20bfc668",
+      "bytes": 2552
+    },
+    {
+      "path": "hockey_ai_analytics/v10/second_holdout.py",
+      "sha256": "5840f67523485aae5b18cc0fe65d0f7907becb81444e695f4f63b2f0f8f12c10",
+      "bytes": 1991
+    },
+    {
+      "path": "hockey_ai_analytics/v10/second_holdout_protocol.json",
+      "sha256": "988344bde319c6dea76d8f327fe1bb3444b83a56581b63c193445c7ebd6572db",
+      "bytes": 851
+    },
+    {
+      "path": "hockey_ai_analytics/v10/second_selection_summary.json",
+      "sha256": "3220377285f68dc90ab0be3bba16622a244d74ecda35e500e01896029fc53ff2",
+      "bytes": 2140
+    },
+    {
+      "path": "hockey_ai_analytics/v10/stable_fusion.py",
+      "sha256": "1bee5909498d82d42a2cdf45963ffebc75ff0caab63eaf2f754d7ba67539bc43",
+      "bytes": 2258
+    },
+    {
+      "path": "hockey_ai_analytics/v10/stable_protocol.json",
+      "sha256": "ff6ac74f48b25c22619d791566eedfdc422d1415ffeb4d31af18b825ba0834f7",
+      "bytes": 714
+    },
+    {
+      "path": "hockey_ai_analytics/v10/swap_protocol.json",
+      "sha256": "dc7de157455b4c8be1bae0a71be4fa677194c839cd931fc21ad34897a2b39f5f",
+      "bytes": 1028
+    },
+    {
+      "path": "hockey_ai_analytics/v10/team_calibration.py",
+      "sha256": "148235c642da4d2b76aaae6e9194f059f3c3476a8df1abce1cf3443b91f187f2",
+      "bytes": 1751
+    },
+    {
+      "path": "hockey_ai_analytics/v10/team_protocol.json",
+      "sha256": "d2d4f4164569f1ef98162eb6df9741dd4b74146454c643112b6c6e00ae0a8391",
+      "bytes": 596
+    },
+    {
+      "path": "hockey_ai_analytics/v10/teams/CHI_VS_TOR_004/summary.json",
+      "sha256": "87216752c322b0bc2cea55a7ffd820f2ac7ce4999b1bb960f830c617460449d0",
+      "bytes": 235
+    },
+    {
+      "path": "hockey_ai_analytics/v10/test_manual_policy.py",
+      "sha256": "ce168c5aeac98461ac63a226f00b0e3334c5d543c9ba2a5a584f004009e4f85c",
+      "bytes": 2475
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tests/test_evaluation.py",
+      "sha256": "66241aee0682c65c9ea400f01f15dd848531eb192d8dfd2664341aedd2d41db9",
+      "bytes": 1275
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tests/test_fusion.py",
+      "sha256": "7fda4e7ff8b238de836dcd66729df670550ac01fa52dab40ab0c265904fc30c0",
+      "bytes": 1799
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tests/test_reconfirmation.py",
+      "sha256": "428d6b94255088c38bf08723149b2eb562e5e3e6297032efb2fca7947deb50e0",
+      "bytes": 1441
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tests/test_swap.py",
+      "sha256": "e7c54330ac5ce6136f8923a7385eaa1ed5ed43573752b4a6a2cf904b64f3781e",
+      "bytes": 1628
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tests/test_team_calibration.py",
+      "sha256": "1405d8bb124e160726c38c2759e4828291837d2be5c3f5548bec7417cfc0e494",
+      "bytes": 1460
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tracker_configs/deepocsort.yaml",
+      "sha256": "24a5f9353bf256d8bd83c08fde3fbedeb6344a04ff953333b9741105336d836f",
+      "bytes": 1854
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tracker_configs/ocsort.yaml",
+      "sha256": "55db91f14db3f01466d816a7af0f9faaeeb74f4485da63019c7ed69a9aafb6e3",
+      "bytes": 1267
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tracker_protocol.json",
+      "sha256": "8d59ba71881b25f4017a503b952f1b475b9069eb1e5f02848fc68d6facdfcb2e",
+      "bytes": 838
+    },
+    {
+      "path": "hockey_ai_analytics/v10/tracker_selection_summary.json",
+      "sha256": "abb70784232ca1f760af8f01ed98e141384a7debdd0cc38f107c7526dbafb0f8",
+      "bytes": 2492
+    },
+    {
+      "path": "hockey_ai_analytics/v11/README.md",
+      "sha256": "03642e748869e4444737439432dc5b50e5449e6b56674c236d9dd47f20aa1088",
+      "bytes": 5712
+    },
+    {
+      "path": "hockey_ai_analytics/v11/RECOVERY_QA.md",
+      "sha256": "8a74b1b3e7b6ac4efe4158b335af049899d82d6495822ea1b022764d94dceefe",
+      "bytes": 6341
+    },
+    {
+      "path": "hockey_ai_analytics/v11/STATUS.json",
+      "sha256": "db5db86ead8d18900af1f377124cdbba7b7ebc7a340c988f550084659aa4986a",
+      "bytes": 468
+    },
+    {
+      "path": "hockey_ai_analytics/v11/baseline_summary.json",
+      "sha256": "1761b1ccf90006c93461b1cf4d8702a7a1fe39d380fd1ae9ba4f709460bc3ddb",
+      "bytes": 10667
+    },
+    {
+      "path": "hockey_ai_analytics/v11/benchmark_baselines.py",
+      "sha256": "d9231acc36273c9eaba47a8ed0989d227d2f3cbfe26158724f3e2868371cd763",
+      "bytes": 2942
+    },
+    {
+      "path": "hockey_ai_analytics/v11/build_benchmark.py",
+      "sha256": "c6c4e08e9cd92192e4d2b7967959dfc6c17b217d453dd31618e6f8b42002f0a6",
+      "bytes": 4741
+    },
+    {
+      "path": "hockey_ai_analytics/v11/candidate_lock.json",
+      "sha256": "98c02c04dee27c9dde7196d2c6fec3d2f61a267904887dc9cfa28c84a02e98a0",
+      "bytes": 1091
+    },
+    {
+      "path": "hockey_ai_analytics/v11/download_reserved.py",
+      "sha256": "1df4f38b2cd48f3b4e076a5b6c3d29a50dc65e67df5bf435567b191ba90838dc",
+      "bytes": 976
+    },
+    {
+      "path": "hockey_ai_analytics/v11/freeze_candidate.py",
+      "sha256": "c65c72df8c6782bdf2fcd1c2d322c0bca1a26dac195c3c388abbc0ddee7ece18",
+      "bytes": 762
+    },
+    {
+      "path": "hockey_ai_analytics/v11/protocol.json",
+      "sha256": "54c74cdf4b568f92f8ed05e57193c6f6a6ea6fe945a85208317240cb1a1064b3",
+      "bytes": 3013
+    },
+    {
+      "path": "hockey_ai_analytics/v11/recovery.py",
+      "sha256": "a2960ea820fa7a43e570d7b05855f07272e80eafd0ea7097d5df582c74308991",
+      "bytes": 5670
+    },
+    {
+      "path": "hockey_ai_analytics/v11/recovery_config.json",
+      "sha256": "c7a123a5edb56650dc7e26b94f3324e03982e887c5aff0a173f5ac2420b75019",
+      "bytes": 292
+    },
+    {
+      "path": "hockey_ai_analytics/v11/recovery_summary.json",
+      "sha256": "c30a48928b21cf5df1ee951538e99b7658a7b16a38a9ce014c92ded43f400c23",
+      "bytes": 3456
+    },
+    {
+      "path": "hockey_ai_analytics/v11/render_recovery.py",
+      "sha256": "97ccbd4a221619db0aaf173893a20d95c26e68db5c7fb89569ceb77c10c69700",
+      "bytes": 3848
+    },
+    {
+      "path": "hockey_ai_analytics/v11/report.py",
+      "sha256": "c4a153cfe1cd86c0a7878c5a58f6f4e28b9b8f504272067e95a719d0a8ec0f7d",
+      "bytes": 4150
+    },
+    {
+      "path": "hockey_ai_analytics/v11/reserved/summary.json",
+      "sha256": "a12442d32109f198cf55857259ee28d647cc8ab6cd8d3ba622fde9501d649f80",
+      "bytes": 2119
+    },
+    {
+      "path": "hockey_ai_analytics/v11/run_recovery.py",
+      "sha256": "5414928742a2357bda8577e441df3555e9d69e52f6cfc111b80ce2c12fc55719",
+      "bytes": 3497
+    },
+    {
+      "path": "hockey_ai_analytics/v11/score_recovery.py",
+      "sha256": "4e8a54c79aca64ad0938214f130d79602cbb2f2c91ca25556ec4d720739b8181",
+      "bytes": 2408
+    },
+    {
+      "path": "hockey_ai_analytics/v11/tests/test_recovery.py",
+      "sha256": "82249367e989169aa591549b4f47cc8fc17faa6d1ab7e96a476289dc3bd769e5",
+      "bytes": 2634
+    },
+    {
+      "path": "hockey_ai_analytics/v11/tests/test_scoring.py",
+      "sha256": "fdf3b2b08588b2881689c748a6ba1b83d4634b244168dd8a767bf699fe6b1c3e",
+      "bytes": 1486
+    },
+    {
+      "path": "hockey_ai_analytics/v11/validate_reserved.py",
+      "sha256": "a258354317f71f51f42afdcdf3a64fb0a4f82a15085ba879101619d6d65212ca",
+      "bytes": 5474
+    },
+    {
+      "path": "hockey_ai_analytics/v12/QA.md",
+      "sha256": "784e1e6f7b36fa706f0fa9281e49c584d9d176ac6277c378a8e48909afd346d8",
+      "bytes": 6225
+    },
+    {
+      "path": "hockey_ai_analytics/v12/README.md",
+      "sha256": "ba723d2b8cde14b6cc4946b81f59e32aa839998855a09e8d21dfb11d5829c293",
+      "bytes": 4558
+    },
+    {
+      "path": "hockey_ai_analytics/v12/STATUS.json",
+      "sha256": "87545663a2dbf67f787cd922dcb2b2de82f776a0a35a671e16b5dd06981c21bd",
+      "bytes": 411
+    },
+    {
+      "path": "hockey_ai_analytics/v12/build_report.py",
+      "sha256": "59426f0bcf5ea16cb0638e216f5ca9860bf3aba56d53f145a64b7d22dc2f55bf",
+      "bytes": 5641
+    },
+    {
+      "path": "hockey_ai_analytics/v12/candidate_lock.json",
+      "sha256": "3efa1cef77695211e0642dbd8c6fbddd4ead85b6cf8fc743ce44255c726370db",
+      "bytes": 1692
+    },
+    {
+      "path": "hockey_ai_analytics/v12/config.json",
+      "sha256": "cf86764f3cee841fb56fa84c9e49c02e7820ebb3e99b36f96e90e8fd6b14c3bf",
+      "bytes": 186
+    },
+    {
+      "path": "hockey_ai_analytics/v12/detect_validation.py",
+      "sha256": "ae4dc04374b9cab7ebd9ed99e0ae1892515943d59bb916abfb88ebe144d0c27b",
+      "bytes": 1436
+    },
+    {
+      "path": "hockey_ai_analytics/v12/development/summary.json",
+      "sha256": "ca9ec1ff1d97c5933b06671c103c8eaa4c7a508195b214cebe424551112402ec",
+      "bytes": 3170
+    },
+    {
+      "path": "hockey_ai_analytics/v12/encoder_source.json",
+      "sha256": "da9cf720e94bc96c2f0a68aa82853505db5221fe55754cb31e9164c1d6f4e705",
+      "bytes": 402
+    },
+    {
+      "path": "hockey_ai_analytics/v12/evidence.py",
+      "sha256": "6b80acf3a282e181ac2cfe9990c8ca5dd0b628d25e32ba6673eda249434a1978",
+      "bytes": 4664
+    },
+    {
+      "path": "hockey_ai_analytics/v12/experiment.py",
+      "sha256": "654097bb4edd687c892849142fb001c91f1fbc624a5651c91f664ef415ed987e",
+      "bytes": 5697
+    },
+    {
+      "path": "hockey_ai_analytics/v12/prepare_validation.py",
+      "sha256": "06e67a1ad1a355d8e284395916895b13ee06d126b17a4054ff1c907962767537",
+      "bytes": 1194
+    },
+    {
+      "path": "hockey_ai_analytics/v12/setup_encoder.py",
+      "sha256": "63711cb126a843615481727a22e7a4f35e79724c28692340ddfc14d6a46dde79",
+      "bytes": 820
+    },
+    {
+      "path": "hockey_ai_analytics/v12/tests/test_evidence.py",
+      "sha256": "8a4021f0cc0ce198ad610547aa8694e36f2896fd58288b2c641934c4d7acca30",
+      "bytes": 2481
+    },
+    {
+      "path": "hockey_ai_analytics/v12/validation/summary.json",
+      "sha256": "f9dc330e6c060c532b32d34e3dac648d9c0f28a816cdc279745f174d5e36bf56",
+      "bytes": 3140
+    },
+    {
+      "path": "hockey_ai_analytics/v13/DATA_LIMITATIONS.md",
+      "sha256": "56699f80b59a11df796aa09058ed4933b1a28d4173e5666eaaffbe68df812e5e",
+      "bytes": 2012
+    },
+    {
+      "path": "hockey_ai_analytics/v13/QA.md",
+      "sha256": "7364215691f0e0bb4af0e96ca838319854b5a99c58eff5d23085410b037fb9cc",
+      "bytes": 2658
+    },
+    {
+      "path": "hockey_ai_analytics/v13/STATUS.json",
+      "sha256": "dca61c38130783ecd09c3594703b3ed04d37a1245e64be78a4ac828768c71fa7",
+      "bytes": 264
+    },
+    {
+      "path": "hockey_ai_analytics/v13/audit_labels.json",
+      "sha256": "618c7c603762ecf322de830ac9ccba595a71d641215c4b751d470b120eac3e8d",
+      "bytes": 774
+    },
+    {
+      "path": "hockey_ai_analytics/v13/build_candidates.py",
+      "sha256": "b4ef6dc9bfa478641a0b26046d4053184c6dd607490ebc90abf8c179001af8b7",
+      "bytes": 1889
+    },
+    {
+      "path": "hockey_ai_analytics/v13/calibration.json",
+      "sha256": "7622da43a305f0e1a93f86f303f2ec2c14e2f4440475e4b3de5d82525f720eae",
+      "bytes": 1728
+    },
+    {
+      "path": "hockey_ai_analytics/v13/calibration_split.json",
+      "sha256": "fd3aae35bfae47ce18f7052c09ed8fafa9e0eb12aa72a25697035866591324ab",
+      "bytes": 1464
+    },
+    {
+      "path": "hockey_ai_analytics/v13/candidate_lock.json",
+      "sha256": "b886cda4e15616dff56bd6b73edaf9b50d61006ea5d04b91d843978d6d3a37c5",
+      "bytes": 2345
+    },
+    {
+      "path": "hockey_ai_analytics/v13/download_test.py",
+      "sha256": "1c6c8c340a1d1532dd89fa6511276ca236af3d538f46d57c9b1f014c21f622b1",
+      "bytes": 1139
+    },
+    {
+      "path": "hockey_ai_analytics/v13/features_sources.json",
+      "sha256": "c8fe104cdec76b44f65b2f1a7709aaf5bf0a88ba126dbb58cb87ccb57f721ae2",
+      "bytes": 22843
+    },
+    {
+      "path": "hockey_ai_analytics/v13/gallery_sources.json",
+      "sha256": "c796bd71bdd324b76e17e82a774fb1cf2f90173124ed06be48d76d6bc0e1981b",
+      "bytes": 2450
+    },
+    {
+      "path": "hockey_ai_analytics/v13/metric_model.py",
+      "sha256": "8618e4d62793ba739090effffcf6bd16e4ddb1d31c5e75b61e3915c16f8fb447",
+      "bytes": 1524
+    },
+    {
+      "path": "hockey_ai_analytics/v13/prepare_features.py",
+      "sha256": "24f8a8862113e96541d58a63b604dcc3a3e9000edff59c96f0faf1e88e0b53fd",
+      "bytes": 2848
+    },
+    {
+      "path": "hockey_ai_analytics/v13/retrieval.py",
+      "sha256": "94cad234aa7e70dd68b4e45515f60edbf4682a170f42a3ee073e49de21edbbe3",
+      "bytes": 4034
+    },
+    {
+      "path": "hockey_ai_analytics/v13/test/summary.json",
+      "sha256": "1395930e1476e02f65ff2749641e3a1e1cf14e7d4af9dc250d59224036f40727",
+      "bytes": 1727
+    },
+    {
+      "path": "hockey_ai_analytics/v13/test_holdout.py",
+      "sha256": "e4f59db4620eedc44e585caba82c5490f59160d97c1dbcd8dce27b877da7c455",
+      "bytes": 2568
+    },
+    {
+      "path": "hockey_ai_analytics/v13/tests/test_metric.py",
+      "sha256": "67f7d5d7498b8c22cb5fc678425463caec3f70e9f825fc9e3257e7dc42a61cb6",
+      "bytes": 2253
+    },
+    {
+      "path": "hockey_ai_analytics/v13/train.py",
+      "sha256": "9b486bb8aa2e6db93ed99334bb5d7bc377be7a0111f832e8497577bb6f445f16",
+      "bytes": 2432
+    },
+    {
+      "path": "hockey_ai_analytics/v13/training_summary.json",
+      "sha256": "5a726135969d8bff1811f96c606793184700b3310946a06e42aa0e81db0c1387",
+      "bytes": 899
+    },
+    {
+      "path": "hockey_ai_analytics/v14/DATA_LIMITATIONS.md",
+      "sha256": "f6f4ca8123f96afaf6ee483153bcffef39e115f08e4a5556bb229464838ab8e2",
+      "bytes": 2068
+    },
+    {
+      "path": "hockey_ai_analytics/v14/QA.md",
+      "sha256": "02ffe87e6e4346d50787938e970e5f705815a20c21d61e0efb3a7a05bddf2007",
+      "bytes": 6195
+    },
+    {
+      "path": "hockey_ai_analytics/v14/README.md",
+      "sha256": "d13a33d0ac100570224468eeab16f77c10b67922648b4c0479ad3f878602aa2a",
+      "bytes": 2617
+    },
+    {
+      "path": "hockey_ai_analytics/v14/STATUS.json",
+      "sha256": "dca61c38130783ecd09c3594703b3ed04d37a1245e64be78a4ac828768c71fa7",
+      "bytes": 264
+    },
+    {
+      "path": "hockey_ai_analytics/v14/audit_labels.json",
+      "sha256": "e6e93653c4ee1262f17287a6b02dd9ffae6c67a18a596a21f82fb1902f83f78f",
+      "bytes": 1142
+    },
+    {
+      "path": "hockey_ai_analytics/v14/build_candidates.py",
+      "sha256": "45a3988bbd7aec14c13ea95bf129f68abd3169a20022db462d44a527742ab88e",
+      "bytes": 1918
+    },
+    {
+      "path": "hockey_ai_analytics/v14/build_review.py",
+      "sha256": "da06ded58e08477ffde769001d4182b79eecc444ddda949ec9bb3f2439504978",
+      "bytes": 5583
+    },
+    {
+      "path": "hockey_ai_analytics/v14/calibration.json",
+      "sha256": "7f5f62663b11408a5e46800048be0ca0b7d04bcdb51cdffb78a9443c39c9f835",
+      "bytes": 2533
+    },
+    {
+      "path": "hockey_ai_analytics/v14/calibration_split.json",
+      "sha256": "1fe2ec559b80b405af3c5d0a310aa13f909713913c718924b29cd9349c58b25e",
+      "bytes": 5464
+    },
+    {
+      "path": "hockey_ai_analytics/v14/candidate_lock.json",
+      "sha256": "75d7386195cdf9e55fc3e8733093e864d15783bb083394fd95ea67c5da35caa8",
+      "bytes": 2345
+    },
+    {
+      "path": "hockey_ai_analytics/v14/download_test.py",
+      "sha256": "1c6c8c340a1d1532dd89fa6511276ca236af3d538f46d57c9b1f014c21f622b1",
+      "bytes": 1139
+    },
+    {
+      "path": "hockey_ai_analytics/v14/download_training.py",
+      "sha256": "c02b16453f36d824c9ea9ac8e4e27a13070f1bedc620e8736c6638765e6c6df4",
+      "bytes": 1141
+    },
+    {
+      "path": "hockey_ai_analytics/v14/features_sources.json",
+      "sha256": "d63126c70b05616191c536c43a753c5dc737f2dbe4baac0adf139ab316a25116",
+      "bytes": 80865
+    },
+    {
+      "path": "hockey_ai_analytics/v14/gallery_sources.json",
+      "sha256": "90d01643d208ec8cfc57d5db199d8dd19884ddb501adda906cef431ac5b81608",
+      "bytes": 2882
+    },
+    {
+      "path": "hockey_ai_analytics/v14/metric_model.py",
+      "sha256": "8618e4d62793ba739090effffcf6bd16e4ddb1d31c5e75b61e3915c16f8fb447",
+      "bytes": 1524
+    },
+    {
+      "path": "hockey_ai_analytics/v14/prepare_features.py",
+      "sha256": "358d12b90a52ed2739fafbf3a7de518ab21480f021a2573d3be5754248ecaf82",
+      "bytes": 2890
+    },
+    {
+      "path": "hockey_ai_analytics/v14/retrieval.py",
+      "sha256": "c2661c3e524525b15d20339dd146ca9550998dba8b8aef048f91f1bba9fa3f8b",
+      "bytes": 4038
+    },
+    {
+      "path": "hockey_ai_analytics/v14/test/summary.json",
+      "sha256": "013561232264d495048e2da2e5c397f55d02fd3dcaacc68b4536764cb5fa94ec",
+      "bytes": 2541
+    },
+    {
+      "path": "hockey_ai_analytics/v14/test_holdout.py",
+      "sha256": "c66f6d3ed301c60c7239555a423c97b7f11ac36846495968982a1977cc21a078",
+      "bytes": 2571
+    },
+    {
+      "path": "hockey_ai_analytics/v14/tests/test_metric.py",
+      "sha256": "8a190a165ecd9936a2c370c4c4d9964188c859c4d16d951d146424b160bb3781",
+      "bytes": 2253
+    },
+    {
+      "path": "hockey_ai_analytics/v14/train.py",
+      "sha256": "9b486bb8aa2e6db93ed99334bb5d7bc377be7a0111f832e8497577bb6f445f16",
+      "bytes": 2432
+    },
+    {
+      "path": "hockey_ai_analytics/v14/training_summary.json",
+      "sha256": "166a5740f4d245357f80dd0e6005049eeaa17c170d0afcfed732ce0ff9eaf887",
+      "bytes": 1210
+    },
+    {
+      "path": "hockey_ai_analytics/v15/QA.md",
+      "sha256": "5a61b307b9d5e09068404bb3788f5d9693d2cf27f557bda2461128d0d213a4ad",
+      "bytes": 4222
+    },
+    {
+      "path": "hockey_ai_analytics/v15/audit.py",
+      "sha256": "e085f1c25e462a6c2bd7b5aa3f68f879fa5b4b138c1a43ab8b2c4ac288d36d09",
+      "bytes": 1448
+    },
+    {
+      "path": "hockey_ai_analytics/v15/candidate_lock.json",
+      "sha256": "b1d094577fae288367e8a118c34810e9dacfe303da87779cac5fefcf14932875",
+      "bytes": 301
+    },
+    {
+      "path": "hockey_ai_analytics/v15/color_candidate.py",
+      "sha256": "2ea53e967d3b43e81c3e28855469f941844718e3e7a2621e2be7431de8312822",
+      "bytes": 944
+    },
+    {
+      "path": "hockey_ai_analytics/v15/evaluate.py",
+      "sha256": "1d551e5395490371c15c2620524985bd73251b7ca367b47ca53233d72f1e7a24",
+      "bytes": 1324
+    },
+    {
+      "path": "hockey_ai_analytics/v15/summary.json",
+      "sha256": "8d3c7d265d16f5e744457c4c653b346e4e21dc276c0ff80eb2d50169ebbed46b",
+      "bytes": 615
+    },
+    {
+      "path": "hockey_ai_analytics/v5/QA_report.md",
+      "sha256": "2c262852c413089e72b3ec5524af09a34e3d5cb702792edf36467377762fd465",
+      "bytes": 10264
+    },
+    {
+      "path": "hockey_ai_analytics/v5/README.md",
+      "sha256": "4d582cd2f919d9c8c4543ecc38482f05997e32480765c6abe050e72173bc548e",
+      "bytes": 3217
+    },
+    {
+      "path": "hockey_ai_analytics/v5/detect_probe.py",
+      "sha256": "ae343fa00b11c73fe7b60d495c7056fa83d6f7af90d460b955e21d470aa8d0f0",
+      "bytes": 2733
+    },
+    {
+      "path": "hockey_ai_analytics/v5/package_v5.py",
+      "sha256": "fb6e06d69353fa42c7c80903464db727f649ed628347f0e1ab7d81de032d0db6",
+      "bytes": 10466
+    },
+    {
+      "path": "hockey_ai_analytics/v5/review_v5.py",
+      "sha256": "0975da222b23dedb7f2adb83c86b4b9ab6b68324bc01c995beacc331add3229f",
+      "bytes": 4190
+    },
+    {
+      "path": "hockey_ai_analytics/v5/run_multitrack.py",
+      "sha256": "d5396d0bf4992e3a05ee3c9bbd7eb4eea0022def8283cac6689a8d25c923b99e",
+      "bytes": 3277
+    },
+    {
+      "path": "hockey_ai_analytics/v5/target_gate.py",
+      "sha256": "bc748faa262d2fab2123d700b1518c2f830352b96866e80abcf045681359a851",
+      "bytes": 2458
+    },
+    {
+      "path": "hockey_ai_analytics/v5/test_target_gate.py",
+      "sha256": "92d5d48d79042ba20d0f1b0430139fb5558db7734c874003cd85ea839cae5b05",
+      "bytes": 1706
+    },
+    {
+      "path": "hockey_ai_analytics/v7/QA_report.md",
+      "sha256": "0f0fa97b3ee09bdef9cefd72847b0300f1aa027f3002ad17cc8e6be13f75fdd9",
+      "bytes": 18234
+    },
+    {
+      "path": "hockey_ai_analytics/v7/README.md",
+      "sha256": "4e04ecf70776fcbbd52ede0ebc3fe4afb58e136d6317679a0679db37caf7ad37",
+      "bytes": 4060
+    },
+    {
+      "path": "hockey_ai_analytics/v7/benchmark.py",
+      "sha256": "102b09d455ec0adab331244d294e0b7f2a698d965b15126ef8d8c55e5eb4655e",
+      "bytes": 4391
+    },
+    {
+      "path": "hockey_ai_analytics/v7/download_frames.py",
+      "sha256": "5b8582b10d70476869a287d74ac70f754ed4c9abbc666219cd0ba1eb595fb03a",
+      "bytes": 799
+    },
+    {
+      "path": "hockey_ai_analytics/v7/download_public.py",
+      "sha256": "8e8ebd676852a9860d82e3cf24245e58596fb205cd0019d79f44105518aa43ee",
+      "bytes": 1573
+    },
+    {
+      "path": "hockey_ai_analytics/v7/evaluate_recovery.py",
+      "sha256": "d6e15716c30501766db2c433490eb84bc93a5067af0f60051522ce393186f334",
+      "bytes": 1169
+    },
+    {
+      "path": "hockey_ai_analytics/v7/finalize.py",
+      "sha256": "fc6874766514917b841b2a0ebd8d771a28035cb5054031a2cae95ab27458abac",
+      "bytes": 2391
+    },
+    {
+      "path": "hockey_ai_analytics/v7/object_diagnostic.py",
+      "sha256": "4e665434ea3742209348cb9d682d081ca5d4614097dc243d1d9468c0f1fb0fd8",
+      "bytes": 2589
+    },
+    {
+      "path": "hockey_ai_analytics/v7/requirements_lock.txt",
+      "sha256": "bbb89236c9a92ac59d209932a7af484ebff48cb90f3ceb8a490631d9ff0b4101",
+      "bytes": 839
+    },
+    {
+      "path": "hockey_ai_analytics/v7/team_analysis.py",
+      "sha256": "37b2ef8c1c251a552f3ecd9d7c6d722d5e5a7e11aea4663e47e7442281afe553",
+      "bytes": 4764
+    },
+    {
+      "path": "hockey_ai_analytics/v7/tests/test_metrics.py",
+      "sha256": "385bf52973ce4d6bbd06e15322ff3930477d0ee904849c8a5a666a70a6713ef0",
+      "bytes": 1085
+    },
+    {
+      "path": "hockey_ai_analytics/v8/TOOLS_REVIEW.md",
+      "sha256": "435e0827c6e0f7374467261c65fc4cd907482e31584dccd12dfce55f086a1739",
+      "bytes": 11805
+    },
+    {
+      "path": "hockey_ai_analytics/v8/benchmark_bytetrack.py",
+      "sha256": "8294e6ac31a1780f853196bd6c27219c6132bd907affe2a69db9922c6aa31a60",
+      "bytes": 4387
+    },
+    {
+      "path": "hockey_ai_analytics/v8/benchmark_high_detail.py",
+      "sha256": "8c12040cc35980c64c7b208d8247cc85411d5302140197b40f9a6f55104909d2",
+      "bytes": 4398
+    },
+    {
+      "path": "hockey_ai_analytics/v8/build_review_queue.py",
+      "sha256": "7accdafc59136a1a14f3f5c362d6c527f505de15a681ddd844ee687259a9fc61",
+      "bytes": 762
+    },
+    {
+      "path": "hockey_ai_analytics/v8/bytetrack_used.yaml",
+      "sha256": "395701d947a749179dee3e327b1181b730c4ca98e7cac5a2ab05280aae573b8b",
+      "bytes": 856
+    },
+    {
+      "path": "hockey_ai_analytics/v8/consensus.py",
+      "sha256": "534cfd657b7f91b2345af748bc08ab2c929d4e9cf62680dc1fac9237e87d1d7e",
+      "bytes": 1000
+    },
+    {
+      "path": "hockey_ai_analytics/v8/finalize.py",
+      "sha256": "16e902f5538daacb35c450a0971e17a2c809e189009b18161e4d61e319783612",
+      "bytes": 2286
+    },
+    {
+      "path": "hockey_ai_analytics/v8/requirements_lock.txt",
+      "sha256": "93b2a4bd0b61077d78b3a379e94097a3f617d953df8a4bbb511b8c8749cb5986",
+      "bytes": 922
+    },
+    {
+      "path": "hockey_ai_analytics/v8/test_hybrid.py",
+      "sha256": "46e6dc63887edea27cb5bf9c4941d4f2b308df7e65db3b0ddacabe68bd5979c5",
+      "bytes": 1795
+    },
+    {
+      "path": "hockey_ai_analytics/v8/test_sahi.py",
+      "sha256": "4f0be2feea9ab4688f2224f4c66547a5ec41d031643e6edd1b9c71614448c4f5",
+      "bytes": 2292
+    },
+    {
+      "path": "hockey_ai_analytics/v8/test_sam2.py",
+      "sha256": "6c6294384bef2d6b8100e7ac1962d43cf4d3ce8e373be994bf5c830edc150192",
+      "bytes": 2368
+    },
+    {
+      "path": "hockey_ai_analytics/v8/tests/test_consensus.py",
+      "sha256": "250c7433fae6febe844f465958b79dab536387f5d2102e8f064e846465b66d09",
+      "bytes": 1219
+    },
+    {
+      "path": "hockey_ai_analytics/v9/QA_report.md",
+      "sha256": "06973310dfa886eda93d87374a5b5811f96f7485871426e927d55f7972792da1",
+      "bytes": 17752
+    },
+    {
+      "path": "hockey_ai_analytics/v9/README.md",
+      "sha256": "682b04f1d2eb140697497cd6309597e4fc0e66da7583962ae62566057c041335",
+      "bytes": 6053
+    },
+    {
+      "path": "hockey_ai_analytics/v9/download.py",
+      "sha256": "ee98959b5c0082d067563a64ce105f3c1e45065219354e7628ddaba108d2e97e",
+      "bytes": 1050
+    },
+    {
+      "path": "hockey_ai_analytics/v9/download_holdout.py",
+      "sha256": "418ebfc3c32a6a486001fd9fef5678831fee95c0d8c4c051d14751889ca3a932",
+      "bytes": 1003
+    },
+    {
+      "path": "hockey_ai_analytics/v9/download_number_models.py",
+      "sha256": "b86c48f5cbaca54b42b0767d76a11163217fc166107be55ab0a0356d344dc56a",
+      "bytes": 638
+    },
+    {
+      "path": "hockey_ai_analytics/v9/evaluate_revision.py",
+      "sha256": "a5f543863925701c1bd5255eb352eb875f852de8c24225f781f385798da3f9fc",
+      "bytes": 1047
+    },
+    {
+      "path": "hockey_ai_analytics/v9/extra_layers_protocol.json",
+      "sha256": "505c1617ec7eb85d77728afd12abc4a831f36791261289bb297d89f9b408d08b",
+      "bytes": 831
+    },
+    {
+      "path": "hockey_ai_analytics/v9/finalize.py",
+      "sha256": "5753ba4181e7b1d625f6ea9efa55205f8f3610f555076e4dc73ff2c41a76a31e",
+      "bytes": 3014
+    },
+    {
+      "path": "hockey_ai_analytics/v9/jersey_ocr.swift",
+      "sha256": "f5cd3741459f5aa16d2374fd834bc77e1fd51d3df36947c49e5b6fcc0b55d98e",
+      "bytes": 1106
+    },
+    {
+      "path": "hockey_ai_analytics/v9/load_number_checkpoint.py",
+      "sha256": "5da15e8f160b73624f234182b0f5f16142687d421fb41544c497293192c178c9",
+      "bytes": 1698
+    },
+    {
+      "path": "hockey_ai_analytics/v9/motion_check.py",
+      "sha256": "149605da8cda3105b50ff26d5f5612065c489014066d2d5a7d3351b3be10e07a",
+      "bytes": 3067
+    },
+    {
+      "path": "hockey_ai_analytics/v9/ocr/apple_summary.json",
+      "sha256": "3d13d0aa81183a9ae089741e571a4a1436be9db3ce3d5af7d874de5a94497991",
+      "bytes": 444
+    },
+    {
+      "path": "hockey_ai_analytics/v9/ocr/specialized_summary.json",
+      "sha256": "ee3aa564af43bcbdde26815e30954fa7ac74050b7705ac988330b35bff0e71ee",
+      "bytes": 571
+    },
+    {
+      "path": "hockey_ai_analytics/v9/prepare_ocr.py",
+      "sha256": "e3f557d15300d6f1989199eea5e3a61683635fcd32babad5b3d2662156c791d8",
+      "bytes": 1285
+    },
+    {
+      "path": "hockey_ai_analytics/v9/requirements_lock.txt",
+      "sha256": "f26a8609de816f4a856393223bb99fbb8d739ec89b3c762764cef9fc4f5e4387",
+      "bytes": 1401
+    },
+    {
+      "path": "hockey_ai_analytics/v9/revised_gate.py",
+      "sha256": "7fef246b417efdab504dd8752a6f63a57d2c188aa1328ac61e39e430a6c454da",
+      "bytes": 696
+    },
+    {
+      "path": "hockey_ai_analytics/v9/revision_protocol.json",
+      "sha256": "ab5a5a18619083fe15dd0e0eb2464bcf3d14e7e1ea7ebc07a4e2380015e631d5",
+      "bytes": 746
+    },
+    {
+      "path": "hockey_ai_analytics/v9/run_match.py",
+      "sha256": "68eed566d0d59fe603295038cad64c5f478bf6c0d11d9d81f262e942887559fe",
+      "bytes": 6273
+    },
+    {
+      "path": "hockey_ai_analytics/v9/source_listing.json",
+      "sha256": "3de480c7258c09fa9e2178f0af265f710d2387325c6b8279b27c449b0cc5e4c8",
+      "bytes": 6526
+    },
+    {
+      "path": "hockey_ai_analytics/v9/specialized_numbers.py",
+      "sha256": "11a23855998ed147038921fb85b0eeca5405667ddd3691ed5f3a8bbf861e94ca",
+      "bytes": 2548
+    },
+    {
+      "path": "hockey_ai_analytics/v9/tests/test_motion.py",
+      "sha256": "e4b20fdc7c1654de0dec86d47dfb3fad8a9a7e54f8b4b2fdc61f43d9b37a8313",
+      "bytes": 990
+    },
+    {
+      "path": "hockey_ai_analytics/v9/tests/test_revised_gate.py",
+      "sha256": "ea388a4c40ea84a7baf35154929bc2dc5bcd71da61f2eb4d72972362c8d69569",
+      "bytes": 989
+    },
+    {
+      "path": "hockey_ai_analytics/validate_outputs.py",
+      "sha256": "19e594f884d3e65d234af549b8f637b4b1cdee648783f14f3309d41d1e707acf",
+      "bytes": 2033
+    },
+    {
+      "path": "docs/history/v6/QA_report.md",
+      "sha256": "e80a4972f4d6390e8e6bf3ac70abadca0f5b21073ec9fd65cd6ac4d1a5799d68",
+      "bytes": 7657
+    },
+    {
+      "path": "docs/history/v6/BEST_PRACTICES_QA.md",
+      "sha256": "e592b60c7bb0ebfccdc6552cfd2e10cd235d649b6e38a6048eaea1fbcbbcaf71",
+      "bytes": 2886
+    },
+    {
+      "path": "docs/history/v6/COACHING_QA.md",
+      "sha256": "cc349eb98a76d92986ae3234ec09d6b4f615bb175d0c49d0904225df7b6098b1",
+      "bytes": 6601
+    },
+    {
+      "path": "hockey_ai_analytics/results/tracker_v4a.py",
+      "bytes": 4567,
+      "sha256": "8ca44447697fe2a0a3682870a4da67891f67cd2ac2912341b541cbbb7e7bb549"
+    },
+    {
+      "path": "hockey_ai_analytics/results/v4_config.json",
+      "bytes": 396,
+      "sha256": "924b46ce46a28df176a05ea2a872d90e4a683a58732c644872a9c5e538675145"
+    },
+    {
+      "path": "hockey_ai_analytics/v5/results/qa_summary.json",
+      "bytes": 2101,
+      "sha256": "ccfcec983fe057649284a230b554ed69424348cc068a398a0d309724886ae2e1"
+    }
+  ],
+  "geometry_json_excluded": [
+    "v12/protocol.json",
+    "v13/protocol.json",
+    "v14/protocol.json",
+    "v9/protocol.json",
+    "v9/summary.json"
+  ],
+  "handoff_note": "Active app has 28 model-free tests, including external asset retrieval. Historical Python sources are syntax-checked, not rerun without excluded assets."
+}

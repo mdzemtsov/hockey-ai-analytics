@@ -1,0 +1,62 @@
+{
+  "generic_1": {
+    "known_queries": 209,
+    "unknown_personnel_queries": 116,
+    "top1_correct": 31,
+    "top1_accuracy": 0.14832535885167464,
+    "same_team_errors": 105,
+    "threshold": 0.1260674463043213,
+    "accepted_known": 0,
+    "accepted_known_correct": 0,
+    "accepted_unknown": 1,
+    "accepted_total": 1,
+    "accepted_correct": 0,
+    "accepted_precision": 0.0,
+    "known_acceptance_coverage": 0.0
+  },
+  "generic_4": {
+    "known_queries": 209,
+    "unknown_personnel_queries": 116,
+    "top1_correct": 37,
+    "top1_accuracy": 0.17703349282296652,
+    "same_team_errors": 97,
+    "threshold": 0.0888037548789978,
+    "accepted_known": 7,
+    "accepted_known_correct": 3,
+    "accepted_unknown": 4,
+    "accepted_total": 11,
+    "accepted_correct": 3,
+    "accepted_precision": 0.2727272727272727,
+    "known_acceptance_coverage": 0.03349282296650718
+  },
+  "trained_1": {
+    "known_queries": 209,
+    "unknown_personnel_queries": 116,
+    "top1_correct": 34,
+    "top1_accuracy": 0.16267942583732056,
+    "same_team_errors": 111,
+    "threshold": 0.4116229878196716,
+    "accepted_known": 0,
+    "accepted_known_correct": 0,
+    "accepted_unknown": 0,
+    "accepted_total": 0,
+    "accepted_correct": 0,
+    "accepted_precision": null,
+    "known_acceptance_coverage": 0.0
+  },
+  "trained_4": {
+    "known_queries": 209,
+    "unknown_personnel_queries": 116,
+    "top1_correct": 41,
+    "top1_accuracy": 0.19617224880382775,
+    "same_team_errors": 120,
+    "threshold": 0.3249671326408386,
+    "accepted_known": 0,
+    "accepted_known_correct": 0,
+    "accepted_unknown": 0,
+    "accepted_total": 0,
+    "accepted_correct": 0,
+    "accepted_precision": null,
+    "known_acceptance_coverage": 0.0
+  }
+}

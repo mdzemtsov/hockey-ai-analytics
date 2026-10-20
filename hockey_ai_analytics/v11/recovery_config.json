@@ -1,0 +1,13 @@
+{
+  "max_gap_seconds": 1.5,
+  "confirm_frames": 3,
+  "max_appearance_distance": 0.42,
+  "ambiguity_margin": 0.12,
+  "base_motion_radius": 0.55,
+  "gap_motion_growth": 0.08,
+  "max_motion_radius": 1.5,
+  "max_scale_ratio": 1.8,
+  "max_overlap": 0.35,
+  "seed_iou": 0.5,
+  "seed_margin": 0.1
+}

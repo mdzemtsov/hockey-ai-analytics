@@ -1,0 +1,13 @@
+{
+  "sequence": "CAR_VS_NYR_001",
+  "split": "personnel-level-format/test",
+  "first_frame": 1,
+  "last_frame": 1800,
+  "native_fps": 60,
+  "duration_seconds": 30,
+  "source_seq_length": 5343,
+  "reason": "Previously unprocessed match; first contiguous 30 seconds locked before observing predictions or annotation scores.",
+  "scope": "Single new broadcast segment, not validation on youth/phone cameras.",
+  "baseline": "V9 HockeyAI+BoTSORT unchanged",
+  "candidate_policy": "Only test candidate frozen after development experiments; no parameter tuning on this holdout."
+}

@@ -1,0 +1,53 @@
+{
+  "train_identities": [
+    "CAR_VS_BOS_001:10",
+    "CAR_VS_BOS_001:11",
+    "CAR_VS_BOS_001:12",
+    "CAR_VS_BOS_001:13",
+    "CAR_VS_BOS_001:15",
+    "CAR_VS_BOS_001:16",
+    "CAR_VS_BOS_001:26",
+    "CAR_VS_BOS_001:36",
+    "CAR_VS_BOS_001:47",
+    "CAR_VS_BOS_001:8",
+    "CGY_VS_DAL_003:1",
+    "CGY_VS_DAL_003:2",
+    "CGY_VS_DAL_003:20",
+    "CGY_VS_DAL_003:23",
+    "CGY_VS_DAL_003:3",
+    "CGY_VS_DAL_003:32",
+    "CGY_VS_DAL_003:5",
+    "CGY_VS_DAL_003:6",
+    "CGY_VS_DAL_003:9",
+    "STL_VS_SJ_001:1",
+    "STL_VS_SJ_001:10",
+    "STL_VS_SJ_001:2",
+    "STL_VS_SJ_001:3",
+    "STL_VS_SJ_001:4",
+    "STL_VS_SJ_001:46",
+    "STL_VS_SJ_001:50",
+    "STL_VS_SJ_001:8",
+    "STL_VS_SJ_001:9"
+  ],
+  "validation_identities": [
+    "CAR_VS_BOS_001:14",
+    "CAR_VS_BOS_001:17",
+    "CGY_VS_DAL_003:13",
+    "CGY_VS_DAL_003:4",
+    "STL_VS_SJ_001:24",
+    "STL_VS_SJ_001:7"
+  ],
+  "train_crops": 1413,
+  "validation_crops": 346,
+  "seed": 137,
+  "epochs": 100,
+  "backbone_frozen": true,
+  "parameters_trained": 131456,
+  "final_loss": {
+    "epoch": 100,
+    "loss": 1.2536736726760864,
+    "supcon": 1.2417422533035278,
+    "same_team_triplet": 0.02386292815208435,
+    "same_team_anchors": 112
+  }
+}

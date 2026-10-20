@@ -1,0 +1,20 @@
+{
+  "seed_frame": 90,
+  "seed_bbox": [
+    177,
+    276,
+    36,
+    52
+  ],
+  "min_component_area": 12,
+  "max_component_area": 600,
+  "motion_gate_px": 18,
+  "ambiguity_distance_px": 10,
+  "max_fb_error_px": 1.5,
+  "min_flow_points": 4,
+  "max_flow_spread_px": 3.5,
+  "max_speed_px_frame": 12,
+  "merge_vertical_gap_px": 6,
+  "merge_min_horizontal_overlap_px": 3,
+  "merge_max_height_px": 35
+}

@@ -1,0 +1,34 @@
+{
+  "development_old": {
+    "n": 20,
+    "correct": 9,
+    "wrong": 2,
+    "unknown": 9,
+    "mixed_or_referee_assigned": 1,
+    "excluded_count": 4
+  },
+  "development_new": {
+    "n": 20,
+    "correct": 13,
+    "wrong": 5,
+    "unknown": 2,
+    "mixed_or_referee_assigned": 3,
+    "excluded_count": 4
+  },
+  "validation_old": {
+    "n": 24,
+    "correct": 7,
+    "wrong": 3,
+    "unknown": 14,
+    "mixed_or_referee_assigned": 1,
+    "excluded_count": 3
+  },
+  "validation_new": {
+    "n": 24,
+    "correct": 12,
+    "wrong": 5,
+    "unknown": 7,
+    "mixed_or_referee_assigned": 3,
+    "excluded_count": 3
+  }
+}

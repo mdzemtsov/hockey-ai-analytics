@@ -1,0 +1,11 @@
+{
+  "candidate":"causal_recovery_v1",
+  "implemented":true,
+  "deployment_decision":"REJECTED_VALIDATION_FAILURE",
+  "main_application_changed":false,
+  "reserved_interval_consumed":true,
+  "independent_human_reference_review":"pending",
+  "automation":"paused",
+  "notion_summary":"https://app.notion.com/p/3ffc8554a5d68177a24aff8c0127c9bd",
+  "next":"Stronger identity/team evidence and competing-trajectory checks, followed by newly untouched validation footage"
+}

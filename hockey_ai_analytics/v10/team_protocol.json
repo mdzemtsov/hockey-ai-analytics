@@ -1,0 +1,14 @@
+{
+  "status": "development diagnostic, thresholds fixed before execution",
+  "sequence": "CHI_VS_TOR_004",
+  "exemplar_frame": 1,
+  "examples": {"TEAM_A": [914,477,1029,638], "TEAM_B": [632,331,731,429]},
+  "reviewer": "assistant visually inspected source frame; not user-confirmed labels",
+  "description": "A blue jersey, B white jersey. The labels do not identify a person.",
+  "min_separation": 0.25,
+  "max_distance": 0.60,
+  "min_margin": 0.12,
+  "missing_or_similar_examples": "UNKNOWN",
+  "role": "diagnostic only, NOT connected to identity fusion or main UI",
+  "gt": "no GT consumed"
+}

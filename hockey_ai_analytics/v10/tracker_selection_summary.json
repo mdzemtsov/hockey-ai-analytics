@@ -1,0 +1,94 @@
+{
+  "ocsort": {
+    "CAR_VS_BOS_001": {
+      "correct": 140,
+      "lost": 157,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 3,
+      "visible_frames": 140,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "initial_model_id": 3
+    },
+    "CGY_VS_DAL_003": {
+      "correct": 167,
+      "lost": 128,
+      "wrong_or_misaligned": 5,
+      "output_while_target_absent": 0,
+      "visible_frames": 173,
+      "visible_lost": 1,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.9653179190751445,
+      "initial_model_id": 1
+    },
+    "CHI_VS_TOR_004": {
+      "correct": 225,
+      "lost": 42,
+      "wrong_or_misaligned": 33,
+      "output_while_target_absent": 0,
+      "visible_frames": 262,
+      "visible_lost": 4,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.8587786259541985,
+      "initial_model_id": 1
+    },
+    "STL_VS_SJ_001": {
+      "correct": 300,
+      "lost": 0,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 300,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "initial_model_id": 6
+    }
+  },
+  "deepocsort": {
+    "CAR_VS_BOS_001": {
+      "correct": 140,
+      "lost": 157,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 3,
+      "visible_frames": 140,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "initial_model_id": 3
+    },
+    "CGY_VS_DAL_003": {
+      "correct": 167,
+      "lost": 131,
+      "wrong_or_misaligned": 2,
+      "output_while_target_absent": 0,
+      "visible_frames": 173,
+      "visible_lost": 4,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 0.9653179190751445,
+      "initial_model_id": 1
+    },
+    "CHI_VS_TOR_004": {
+      "correct": 57,
+      "lost": 199,
+      "wrong_or_misaligned": 44,
+      "output_while_target_absent": 0,
+      "visible_frames": 262,
+      "visible_lost": 161,
+      "matches_other_identity": 42,
+      "correct_visible_coverage": 0.21755725190839695,
+      "initial_model_id": 1
+    },
+    "STL_VS_SJ_001": {
+      "correct": 300,
+      "lost": 0,
+      "wrong_or_misaligned": 0,
+      "output_while_target_absent": 0,
+      "visible_frames": 300,
+      "visible_lost": 0,
+      "matches_other_identity": 0,
+      "correct_visible_coverage": 1.0,
+      "initial_model_id": 6
+    }
+  }
+}
