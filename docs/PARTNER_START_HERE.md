@@ -4,6 +4,10 @@
 
 An experimental local hockey-video review tool. Two intended products share the same evidence pipeline: (1) follow a manually selected player and discuss decisions; (2) review a team's play. The current system provides a working review interaction, not reliable autonomous hockey intelligence.
 
+## Consolidated knowledge base
+
+The [Notion archive](notion/README.md) includes all 40 linked Hockey AI Analytics pages: coaching frameworks, bibliographies, exercise libraries, training logic and engineering reports. It is a public-safe snapshot with a coverage manifest and attachment exceptions.
+
 ## Five-minute orientation
 
 1. Read [baseline QA](BASELINE_QA.md): what was tested and what remains unproven.
@@ -33,7 +37,7 @@ The active V6 app, first-party earlier trackers, public-data acquisition scripts
 
 Original/private videos, player crops, raw per-frame annotations and detections, feature arrays, model weights, generated review media, downloaded third-party repositories and credentials. These are intentionally absent; old reports may refer to them. A source script being present does not mean every historical experiment can run on a fresh clone without its declared external inputs.
 
-No access invitation was sent: the owner can invite a partner using GitHub repository Settings → Collaborators. A private repository URL alone does not grant access. Sharing the repository does not transfer private video files.
+The repository is public and can be read without an invitation. Write access still requires an explicit collaborator invitation. Private video files are not published.
 
 ## Suggested division of work
 

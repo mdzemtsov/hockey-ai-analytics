@@ -1,8 +1,8 @@
 # Hockey AI Analytics
 
-**Partner: start with [the handoff guide](docs/PARTNER_START_HERE.md).**
+**Partner: start with [the handoff guide](docs/PARTNER_START_HERE.md). Read the full [Notion knowledge base — 40 pages](docs/notion/README.md).**
 
-Private, experimental local video review for hockey: explicit player selection, conservative tracking, pause-point graphics and English/Russian synthesized narration.
+Experimental local video review for hockey: explicit player selection, conservative tracking, pause-point graphics and English/Russian synthesized narration.
 
 **Not a validated autonomous coach.** Team recognition and puck detection remain inconsistent. Player identities, possession, zones, roles, good/bad decisions and safe skating routes are not established. Read [the baseline QA](docs/BASELINE_QA.md) before interpreting output.
 
@@ -48,4 +48,4 @@ The versioned directory layout is retained so the working app's relative paths r
 
 Keep source media, player crops, raw annotations, credentials and model binaries outside Git. Never promote a model because it produces more labels: compare errors and abstentions on a fixed validation set. No future ground truth in inference. Explicit human selection is not independent ground truth. Do not identify the test player as Matvey. See [data policy](docs/DATA_POLICY.md).
 
-This source handoff now includes the active app plus first-party historical research across V4–V15, training/evaluation code, protocols, aggregate metrics and QA. It is not a complete data/checkpoint archive. Existing local videos and historical outputs remain untouched. No open-source license is granted by this private repository; third-party code and models retain their own terms.
+This source handoff now includes the active app plus first-party historical research across V4–V15, training/evaluation code, protocols, aggregate metrics and QA. It is not a complete data/checkpoint archive. Existing local videos and historical outputs remain untouched. No open-source license is granted by publishing this repository; third-party code and models retain their own terms.

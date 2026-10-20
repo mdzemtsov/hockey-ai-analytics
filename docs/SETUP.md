@@ -2,7 +2,7 @@
 
 ## Active app
 
-1. Clone this private repository with an account granted access.
+1. Clone this public repository; no invitation is required to read it.
 2. Create a Python 3.13 virtual environment in the repository root.
 3. Install `hockey_ai_analytics/v6/requirements.txt`.
 4. Acquire the two weights in `assets.json` from their named upstream sources, respecting their licenses, and place them at the declared paths. `python scripts/fetch_assets.py --download` performs a hash-checked download; it does not install or execute model code.
