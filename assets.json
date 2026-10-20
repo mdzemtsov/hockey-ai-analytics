@@ -1,0 +1,18 @@
+[
+  {
+    "path": "hockey_ai_analytics/v5/models/yolo11s.pt",
+    "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "bytes": 19313732,
+    "source": "https://github.com/ultralytics/assets/releases",
+    "required_for": "Selected-player inference",
+    "distribution": "Not included; review upstream license and acquire separately."
+  },
+  {
+    "path": "hockey_ai_analytics/v7/data/HockeyAI.pt",
+    "sha256": "58ac4450b4bd2545aaff43812bd05171af3383f30195aab5e010571039cf6d90",
+    "bytes": 52109323,
+    "source": "https://huggingface.co/SimulaMet-HOST/HockeyAI",
+    "required_for": "Coaching detection",
+    "distribution": "Not included; review upstream license and acquire separately."
+  }
+]
